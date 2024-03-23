@@ -20,7 +20,7 @@ There are a multiple ways the system could locate each other:
 General Storage and Encription module.
 
 
-> Water dowsing / Divining Rod
+> ### Water dowsing / Divining Rod
 > Directional Antenna can indicate a levle of the beacon to find
 > RGB Ledes could indicate which friend you are tracking
 >
@@ -30,5 +30,16 @@ General Storage and Encription module.
 > Cons:
 > - security is hard, because it's basic. Unwanted Tracking is hard to block, no network blocking
 
+
+> ### Triangulat with batch and send the data to the Network for others to see
+> [Methode](https://www.mathworks.com/help/bluetooth/ug/bluetooth-le-based-positioning-using-direction-finding.html)
+> Have static beacons that sender Masts the location is calculated on the traker and send to the (private) Cloud
+>
+> 
+> Pros:
+> The Tracker calculates your position, Mobile Apps could be used as tracking device
+>
+> Cons:
+> The tracker needs to send the location to a server, the viewing device may be needs to display complex data, which needs morepower.
 
 
